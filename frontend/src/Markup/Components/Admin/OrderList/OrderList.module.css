@@ -1,0 +1,47 @@
+.orderTable {
+  font-size: 0.9rem;
+}
+
+.statusIconSuccess {
+  color: #28a745;
+}
+
+.statusIconWarning {
+  color: #ffc107;
+}
+
+.statusIconInfo {
+  color: #17a2b8;
+}
+
+.statusIconPrimary {
+  color: #007bff;
+}
+
+.actionButton {
+  padding: 0;
+  margin-right: 0.5rem;
+  color: #333;
+}
+
+.title {
+  color: orangered;
+}
+
+@media (max-width: 768px) {
+  .orderTable th, .orderTable td {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .orderTable th, .orderTable td {
+    font-size: 0.7rem;
+  }
+
+  .orderTable th:nth-child(2), .orderTable td:nth-child(2),
+  .orderTable th:nth-child(3), .orderTable td:nth-child(3),
+  .orderTable th:nth-child(5), .orderTable td:nth-child(5) {
+    display: none;
+  }
+}

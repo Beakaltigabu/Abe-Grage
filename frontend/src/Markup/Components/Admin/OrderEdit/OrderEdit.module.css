@@ -1,0 +1,79 @@
+.title {
+  color: #081e5b;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.orderId {
+  color: orangered;
+}
+
+.cardCustom {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .cardHeaderCustom {
+  background-color: #081e5b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.cardHeaderTitle {
+  font-weight: bold;
+}
+
+.buttonToggle {
+  color: white;
+  padding: 0;
+}
+
+.cardTextKey {
+  font-weight: bold;
+  color: #081e5b;
+}
+
+.cardTextValue {
+  color: #333;
+}
+
+.serviceRow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.serviceName {
+  font-size: 1.1rem;
+  color: #081e5b;
+  font-weight: bold;
+}
+
+.serviceDescription {
+  color: #6c757d;
+}
+
+.serviceCheckbox {
+  transform: scale(1.5);
+}
+
+.orderDetailsAccent {
+  color: orangered;
+}
+
+.formControl {
+  margin-bottom: 1rem;
+}
+
+.buttonCustom {
+  background-color: #081e5b;
+  border-color: #081e5b;
+}
+
+.buttonCustom:hover {
+  background-color: #0a2a7a;
+  border-color: #0a2a7a;
+}

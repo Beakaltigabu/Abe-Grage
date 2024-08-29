@@ -1,0 +1,50 @@
+.title {
+  color: #081e5b;
+  font-weight: bold;
+}
+
+.orderId {
+  color: orangered;
+}
+
+.cardCustom {
+  margin-bottom: 20px;
+}
+
+
+.cardHeaderTitle {
+  font-weight: bold;
+}
+
+.cardTextKey {
+  font-weight: bold;
+  color: #081e5b;
+}
+
+.cardTextValue {
+  color: #333;
+}
+
+.serviceRow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.serviceName {
+  font-size: 1.1rem;
+  color: #081e5b;
+  font-weight: bold;
+}
+
+.serviceDescription {
+  color: #6c757d;
+}
+
+.serviceCheckbox {
+  transform: scale(1.5);
+}
+
+.orderDetailsAccent {
+  color: orangered;
+}

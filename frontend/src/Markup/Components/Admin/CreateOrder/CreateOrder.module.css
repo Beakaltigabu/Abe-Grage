@@ -1,0 +1,75 @@
+.card-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+  }
+
+  .card-header-custom {
+    background-color: transparent;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-header-title {
+    color: #081e5b;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .card-text-key {
+    color: #081e5b;
+    font-weight: bold;
+  }
+
+  .card-text-value {
+    color: #8b8d8f;
+    font-weight: normal;
+  }
+
+  .button-custom {
+    background-color: #d70f0c;
+    color: white;
+    border-radius: 0;
+  }
+
+  .button-toggle {
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    padding: 2px 6px;
+  }
+
+  .form-control:focus {
+    border-color: #081e5b;
+    box-shadow: 0 0 0 0.2rem rgba(8, 30, 91, 0.25);
+  }
+
+  @media (max-width: 768px) {
+    .card-header-title {
+      font-size: 1rem;
+    }
+
+    .card-text-key {
+      font-size: 0.9rem;
+    }
+
+    .card-text-value {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .card-header-title {
+      font-size: 0.8rem;
+    }
+
+    .card-text-key {
+      font-size: 0.8rem;
+    }
+
+    .card-text-value {
+      font-size: 0.8rem;
+    }
+  }
